@@ -1,0 +1,48 @@
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+  }
+  nav a{
+    text-decoration: none;
+    color: rgba(255, 76, 76, 1);
+    margin: 0 40px;
+    font-size: 30px;
+  }
+  
+  nav button{
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    color: white;
+    background: linear-gradient(180deg, #FF4C4C 0%, #A94E97 100%) ;
+    font-size: 20px;
+  }
+  .header img{
+    width: 100px;
+    height: 100px
+  }
+  .burger{
+    display: none ;
+  }
+  
+  #menuchk{
+    display: none;
+  }
+  .footer{
+    margin-top: auto;
+    background-color:rgba(255, 76, 76, 1) ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    padding-left: 20px;
+    font-size: 25px;
+  }
+  .flex-wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }

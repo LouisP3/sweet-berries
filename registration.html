@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.style.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-wrapper">
+    <div class="header">
+        <img src="assets/logo.png">
+          <div class="menu">
+         <!-- <p class="burger">&#9776;</p>-->
+            <label class="burger" for="menuchk">&#9776;</label>
+            <input type="checkbox" id="menuchk">
+          <nav>
+              <a href="#">Courses</a>
+              <a href="#">About us</a>
+              <a href="index.html"><button>Home</button></a>
+          </nav>
+          </div>
+    </div>
+    <div class="content">
+    <H1>Registration</H1>
+    <forms>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="lname" value="first"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="last"><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email" value="ronstar@domain.com"><br>
+      <label for="password">Password:</label><br>
+      <input type="text" id="password" name="password" minlength="6"><br><br>
+      
+
+      <div class="CourseSelect">
+        <label for="course">Select a course:</label>
+        <select>
+            <option>Cooking Essentials</option>
+            <option>Chef Skills</option>
+            <option>Nutrition in Cooking</option>
+            <option>Plant=Based Cooking</option>
+            <option>Teen's Kitchen</option>
+        </select>
+      </div>
+
+      <div class="btnsubres">
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </div>
+    </forms>
+    </div>
+    <div class="footer">
+        <footer>
+            <p><strong>Sweet Berries</strong></p>
+        </footer>
+    </div>
+    
+</div>
+</body>
+</html>
